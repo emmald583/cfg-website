@@ -1,5 +1,5 @@
 body {
-  color: rgb(65,75,86);
+  color: rgb(255,0,125);
   font-family: arial, sans-serif;
   margin: 0px;
 }
@@ -20,7 +20,7 @@ img {
   display: flex;
   padding: 20px;
   margin: 0 auto;
-  border-radius: 130px;
+  border-radius: 260px;
 }
 p {
   width: 80%;
