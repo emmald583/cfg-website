@@ -2,6 +2,7 @@ body {
   color: rgb(65,75,86);
   font-family: arial, sans-serif;
   margin: 0px;
+  background: linear-gradient(#23183d, #481c2b, #1d0c08);
 }
 div {
   min-height: 100vh;
