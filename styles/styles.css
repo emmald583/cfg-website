@@ -49,6 +49,8 @@ div.buttons {
   justify-content: center, ;
   align-items: center;
   flex-direction:row;
+  min-height: auto;
+  width: auto;
 }
 li:hover {
   font-size:1.2em;
