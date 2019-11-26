@@ -2,7 +2,7 @@ body {
   color: rgb(0,0,0);
   font-family: 'Quicksand';
   margin: 0px;
-  background: rgb(158, 255, 250);
+  background-image: url('../water.jpg');
 }
 div {
   min-height: 100vh;
@@ -13,7 +13,7 @@ h1, h2 {
   color: rgb(245,176,224);
 }
 h1 {
-  font-size: 5em;
+  font-size: 10em;
 }
 h2 {
   font-size: 2.5em;
@@ -22,7 +22,7 @@ img {
   display: flex;
   padding: 20px;
   margin: 0 auto;
-  border-radius: 260px;
+  border-radius: 700px;
 }
 p {
   width: 80%;
