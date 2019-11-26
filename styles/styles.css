@@ -25,6 +25,8 @@ img {
   border-radius: 700px;
 }
 p {
+  text-align: center;
+  color: rgb(245,176,224);
   width: 80%;
   margin: 10vh 10vw;
   font-size: 2em;
