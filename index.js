@@ -1,6 +1,7 @@
 function quack () {
-    alert("Quack")
+    audio.play()
 }
 
-let imageClick = document.getElementById("#travelduck")
+let imageClick = document.getElementById("travelduck")
+let audio = new Audio('quack.mp3')
 imageClick.addEventListener("click", quack)
