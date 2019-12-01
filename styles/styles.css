@@ -1,67 +1,98 @@
 body {
-  color: rgb(65,75,86);
-  font-family: arial, sans-serif;
+  color: rgb(0,0,0);
+  font-family: 'Quicksand';
   margin: 0px;
+  background-image: url('../water.jpg');
 }
 div {
   min-height: 100vh;
   width: 100vw;
 }
-h1, h2 {
+h1, h2, h3 {
   text-align: center;
-  color: rgb(255,0,125);
+  color: rgb(245,176,224);
 }
 h1 {
-  font-size: 5em;
+  font-size: 9em;
 }
 h2 {
   font-size: 2.5em;
 }
-img {
+
+h3 {
+  font-size: 6em;
+}
+
+#travelduck {
   display: flex;
   padding: 20px;
   margin: 0 auto;
-  border-radius: 260px;
+  border-radius: 700px;
 }
+
 p {
+  text-align: center;
+  color: rgb(245,176,224);
   width: 80%;
   margin: 10vh 10vw;
   font-size: 2em;
 }
+
 a {
   color: rgb(0,0,0)
 }
-ol {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 10%;
-  font-size: 3em;
-  display: flex;
-  justify-content: space-evenly;
+
+
+video {
+
+  margin: 10vh 10vw;
+  border-radius: 700px;
 }
-li#lower {
-  margin-top: 7%;
-}
-li#lowest {
-  margin-top: 14%;
-}
-div.contrast {
-  background-color: rgb(0,0,200);
+
+div.buttons {
   color: rgb(255,255,255);
   display: flex;
-  justify-content: center;
+  justify-content: center, ;
   align-items: center;
-  flex-direction: column;
+  flex-direction:row;
+  min-height: auto;
+  width: auto;
 }
+
+
+
+/* this stuff is for the nav bar */
+
 ul {
-  list-style: none;
-  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffd00b;
 }
+
 li {
-  margin: 0 20px;
-  transition: 0.6 ease;
+  float: left;
 }
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
 li:hover {
-  font-size:1.2em;
-  transition: 0.6s ease;
+  background-color: #ff8712;
+}
+
+.active {
+  background-color: red;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
 }
