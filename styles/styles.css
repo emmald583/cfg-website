@@ -88,6 +88,11 @@ li:hover {
   background-color: #ff8712;
 }
 
+#clickduck:hover {
+  font-size:3em;
+  transition: 0.6s ease;
+}
+
 .active {
   background-color: red;
 }
