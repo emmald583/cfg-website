@@ -8,7 +8,7 @@ div {
   min-height: 100vh;
   width: 100vw;
 }
-h1, h2 {
+h1, h2, h3 {
   text-align: center;
   color: rgb(245,176,224);
 }
@@ -18,12 +18,18 @@ h1 {
 h2 {
   font-size: 2.5em;
 }
+
+h3 {
+  font-size: 6em;
+}
+
 img {
   display: flex;
   padding: 20px;
   margin: 0 auto;
   border-radius: 700px;
 }
+
 p {
   text-align: center;
   color: rgb(245,176,224);
@@ -31,16 +37,16 @@ p {
   margin: 10vh 10vw;
   font-size: 2em;
 }
+
 a {
   color: rgb(0,0,0)
 }
-ol {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 10%;
-  font-size: 3em;
-  display: flex;
-  justify-content: ;
+
+
+video {
+
+  margin: 10vh 10vw;
+  border-radius: 700px;
 }
 
 div.buttons {
@@ -52,7 +58,36 @@ div.buttons {
   min-height: auto;
   width: auto;
 }
+
+
+
+/* this stuff is for the nav bar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffd00b;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
 li:hover {
-  font-size:1.2em;
-  transition: 0.6s ease;
+  background-color: #ff8712;
+}
+
+.active {
+  background-color: red;
 }
