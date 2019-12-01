@@ -1,20 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Hello World</title>
+  <title>Duckbridge</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="styles/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+
+
 </head>
+
 <body>
   <div class="container">
 
+    <h1>ABOUT DUCKBRIDGE</h1>
 
-  <p>Follow my progress on <a href="http://www.github.com">github</a></p>
-  <h2> About </h2>
-  <p>
-    This is a demonstration of GitHub.
-  </p>
+    <ul>
+      <li><a href="index.html" >Home</a></li>
+      <li><a class="active" href="secondpage.html">About Duckbridge</a></li>
+      <li><a href="duckinfo.html" >Duck Information</a></li>
+      <li><a href="stcatsduck.html" >Famous Ducks of Cambridge</a></li>
+    </ul>
+
+    <p>Duckbridge is a facebook page that allows people to share their photos of duck seen around Cambridge.
+    For more information visit our Facebook page. </p>
+
+    <h2>Where to find us</h2>
+    <div id="map"></div>
+  </div>
+  <script src="about.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4c7XYpCN36KH_zo9nm5bXw9uTPpj4El0&callback=initMap"></script>
+
 </body>
 </html>
